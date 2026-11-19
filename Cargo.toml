@@ -1,0 +1,17 @@
+[package]
+name = "nexy-compiler"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "The build and dev toolchain of Nexy, written in Rust"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/NexyPy/nexy-compiler"
+documentation = "https://docs.rs/nexy-compiler"
+keywords = ["nexy", "compiler", "bundler", "build", "hmr"]
+categories = ["development-tools::build-utils"]
+authors = ["Espoir LOEMBA"]
+[lib]
+path = "src/lib.rs"
+
+[dependencies]

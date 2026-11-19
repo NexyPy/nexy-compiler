@@ -73,6 +73,12 @@ Packages are still installed with the project's package manager (bun, pnpm or np
 8. Solid, then Vue and Svelte, then MDX.
 9. Opt-in setting in Nexy, then the default.
 
+## Branches and releases
+
+`develop` is the integration branch. Work branches start from `develop` and target `develop`.
+`main` receives reviewed merges and release commits. The release workflow is prepared but dormant
+until this module has a package to publish. See `docs/release-setup.md` for the registry setup.
+
 ## Status
 
 Design phase. Nothing is published yet.
